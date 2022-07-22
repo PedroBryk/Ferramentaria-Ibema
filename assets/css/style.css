@@ -1,5 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .adicionar_uso{
     background-color: #3F3A3A;
     width: 100vw;
     height: 100vh;
 }
+
+.ferramentaria_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3F3A3A;
+    padding-top: 1%;
+    
+    
+}
+
+.itens{
+    list-style: none;
+    display: flex;
+    
+}
+
+.item{
+    margin-left: 32px;
+    font-weight: 400;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.item-a{
+    text-decoration: none;
+    color:  #FF7166;
+}
+
+
