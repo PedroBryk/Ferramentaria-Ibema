@@ -1,0 +1,27 @@
+.adicionar_uso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.adicionar_uso-titulo{
+    color: #f8f8f8;
+    font-size: 32px;
+    
+}
+
+.destaque{
+   font-weight: bold;
+   color: #9073ff;
+}
+
+.adicionar_uso-titulo-2{
+    color: #ffc369;
+    font-size: 28px;
+}
+
+.adicionar_uso-img{
+    cursor: pointer;
+    display: block;
+}
