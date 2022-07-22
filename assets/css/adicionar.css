@@ -23,5 +23,33 @@
 
 .adicionar_uso-img{
     cursor: pointer;
+    display: none;
+    transition: .6s;
     display: block;
+}
+
+.concluido{
+    display: grid;
+    place-items: center;
+    display: none;
+}
+
+.concluido p{
+    font-size: 18px;
+    color: #ffc369;
+}
+
+.botao-concluido{
+    width: 30%;
+    height: 38px;
+    margin-top: 20px;
+    background: #ffc369;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    font-size: 22px;
+    color: #3F3A3A;
+    font-weight: bold;
+    transition: .4s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,7 +49,37 @@
                 <input class="mecanico-nome, uso-form" type="text" placeholder="Quem vai usar essa ferramenta?">
                 <button class="botao-adicionar">Adicionar</button>
             </div>
+            <div class="concluido">
+                <img src="./assets/img/concluido.png" alt="concluido" class="concluido-img">
+                <p>Adicionado com sucesso</p>
+                <button class="botao-concluido">voltar</button>
+            </div>
         </section>
     </main>
 </body>
+<script>
+    $('.adicionar_uso-img').on("click",troca)
+
+    function troca(){
+        $('.adicionar_uso-img').css("display","none");
+
+        $('.formulario-uso').css("display","block");
+    }
+
+    $('.botao-adicionar').on("click",troca2)
+
+    function troca2(){
+        $('.formulario-uso').css("display","none");
+
+        $('.concluido').css("display","block");
+    }
+
+    $('.botao-concluido').on("click",troca3)
+
+    function troca3(){
+        $('.adicionar_uso-img').css("display","block");
+
+        $('.concluido').css("display","none");
+    }
+</script>
 </html>
