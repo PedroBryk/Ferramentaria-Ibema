@@ -35,3 +35,13 @@ $('.concluido').hide();
 $('.adicionar_uso-img').show();
 
 }
+
+$('.botao-cancelar').on("click",troca4)
+
+function troca4(){
+
+    $('.formulario-uso').hide();
+
+    $('.adicionar_uso-img').show();
+
+}

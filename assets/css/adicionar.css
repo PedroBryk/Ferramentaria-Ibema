@@ -4,7 +4,6 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    
 
 }
 
@@ -37,6 +36,13 @@
 .concluido p{
     font-size: 18px;
     color: #ffc369;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
 }
 
 .botao-concluido{
