@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .adicionar_uso-titulo{
@@ -23,15 +24,11 @@
 
 .adicionar_uso-img{
     cursor: pointer;
-    display: none;
-    transition: .6s;
-    display: block;
 }
 
 .concluido{
     display: grid;
     place-items: center;
-    display: none;
 }
 
 .concluido p{

@@ -58,28 +58,44 @@
     </main>
 </body>
 <script>
-    $('.adicionar_uso-img').on("click",troca)
 
-    function troca(){
-        $('.adicionar_uso-img').css("display","none");
+    $(document).ready(function() {
 
-        $('.formulario-uso').css("display","block");
-    }
+        $('.formulario-uso').hide();
 
-    $('.botao-adicionar').on("click",troca2)
+        $('.concluido').hide();
 
-    function troca2(){
-        $('.formulario-uso').css("display","none");
+    })
+   
+   $('.adicionar_uso-img').on("click",troca)
 
-        $('.concluido').css("display","block");
-    }
+   function troca(){
 
-    $('.botao-concluido').on("click",troca3)
+    $('.adicionar_uso-img').hide();
 
-    function troca3(){
-        $('.adicionar_uso-img').css("display","block");
+    $('.formulario-uso').show();
 
-        $('.concluido').css("display","none");
-    }
+   }
+
+   $('.botao-adicionar').on("click",troca2)
+
+   function troca2(){
+
+    $('.formulario-uso').hide();
+
+    $('.concluido').show();
+
+   }
+
+   $('.botao-concluido').on("click",troca3)
+
+   function troca3(){
+
+    $('.concluido').hide();
+
+    $('.adicionar_uso-img').show();
+    
+   }
+
 </script>
 </html>
