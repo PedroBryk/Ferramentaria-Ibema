@@ -1,7 +1,6 @@
 var data = {
     id:0,
     list:[
-
         { id:1, name:'Chave griffo' },
         { id:2, name:'Martelo' },
         { id:3, name:'Martelo' },
