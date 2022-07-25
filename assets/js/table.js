@@ -3,7 +3,7 @@ var data = {
     list:[
         { id:1, name:'Chave griffo' },
         { id:2, name:'Martelo' },
-        { id:3, name:'Martelo' },
+        { id:3, name:'Chave 28' },
     ]
 }
 
@@ -16,7 +16,7 @@ function render(){
     data.list.map( item => {
 
         const tr = document.createElement('tr')
-        tr.innerHTML = '<td>$(item.id)</td><td>$(item.qtd)</td><td>$(item.mecanico)</td><td>$(item.status)</td>'
+        tr.innerHTML = '<td>$(item.id)</td><td>$(item.qtd)</td><td>$(item.mecanico)</td><td><button class="btn-uso">Em uso</button></td>'
 
         tbody.appendChild(tr)
     })
